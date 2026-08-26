@@ -1,0 +1,16 @@
+BENCHMARK CONFIRMATÓRIO — CALIBRADOR INIT V4
+Cenário: CIFAR-10 + GELU
+Device: cuda
+Arquitetura: [3072, 1024, 256, 512, 128, 256, 64, 10]
+Ativação: gelu
+Seeds: (1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010)
+Épocas: 30
+Batch size: 256
+SGD lr=0.05, momentum=0.9, weight_decay=0.0
+Val fraction: 0.15
+Formula: log_fan_in * square(square(depth * -0.2702429))
+Symbolic vector: [1.7837956650163633e-05, 0.0002463601469446722, 0.0009977585951259226, 0.0035475861160032796, 0.006736410268018381, 0.01596413752201476, 0.02218165173053093]
+Final origin: pysr
+Refined vector: N/A — o vetor final é o vetor Symbolic exato.
+Métricas primárias: val_loss_aulc, final_val_loss
+Holm: por métrica e por variante V4 contra He/Xavier/LeCun.

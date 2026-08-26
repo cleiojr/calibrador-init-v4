@@ -1,0 +1,3 @@
+focal_method,comparisons,positive_mean,win_rate_ge_0_8,win_rate_ge_0_9,ci_positive,holm_significant
+calibrador_v4_refined,6,3,2,2,2,2
+calibrador_v4_symbolic,9,7,3,2,2,2

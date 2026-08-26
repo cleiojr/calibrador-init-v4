@@ -1,0 +1,31 @@
+metric,metric_label,method,scenarios_present,average_rank,median_rank,best_rank,worst_rank
+final_val_acc,Final validation accuracy,calibrador_v4_refined,2,3.5,3.5,3,4
+final_val_acc,Final validation accuracy,calibrador_v4_symbolic,3,2.3333333333333335,2.0,1,4
+final_val_acc,Final validation accuracy,he,3,4.333333333333333,5.0,3,5
+final_val_acc,Final validation accuracy,lecun,3,1.6666666666666667,2.0,1,2
+final_val_acc,Final validation accuracy,xavier,3,2.6666666666666665,3.0,1,4
+final_val_loss,Final validation loss,calibrador_v4_refined,2,4.0,4.0,4,4
+final_val_loss,Final validation loss,calibrador_v4_symbolic,3,3.0,2.0,2,5
+final_val_loss,Final validation loss,he,3,3.0,3.0,1,5
+final_val_loss,Final validation loss,lecun,3,2.6666666666666665,3.0,2,3
+final_val_loss,Final validation loss,xavier,3,2.0,1.0,1,4
+test_acc,Test accuracy,calibrador_v4_refined,2,2.0,2.0,2,2
+test_acc,Test accuracy,calibrador_v4_symbolic,3,2.3333333333333335,2.0,1,4
+test_acc,Test accuracy,he,3,4.333333333333333,5.0,3,5
+test_acc,Test accuracy,lecun,3,1.6666666666666667,1.0,1,3
+test_acc,Test accuracy,xavier,3,3.6666666666666665,4.0,3,4
+test_loss,Test loss,calibrador_v4_refined,2,2.5,2.5,2,3
+test_loss,Test loss,calibrador_v4_symbolic,3,3.0,3.0,2,4
+test_loss,Test loss,he,3,2.3333333333333335,1.0,1,5
+test_loss,Test loss,lecun,3,2.0,2.0,1,3
+test_loss,Test loss,xavier,3,4.333333333333333,4.0,4,5
+val_acc_aulc,Accuracy AULC,calibrador_v4_refined,2,3.0,3.0,2,4
+val_acc_aulc,Accuracy AULC,calibrador_v4_symbolic,3,2.6666666666666665,3.0,2,3
+val_acc_aulc,Accuracy AULC,he,3,4.666666666666667,5.0,4,5
+val_acc_aulc,Accuracy AULC,lecun,3,1.6666666666666667,1.0,1,3
+val_acc_aulc,Accuracy AULC,xavier,3,2.3333333333333335,2.0,1,4
+val_loss_aulc,Loss AULC,calibrador_v4_refined,2,3.0,3.0,2,4
+val_loss_aulc,Loss AULC,calibrador_v4_symbolic,3,2.0,2.0,1,3
+val_loss_aulc,Loss AULC,he,3,4.333333333333333,5.0,3,5
+val_loss_aulc,Loss AULC,lecun,3,3.0,3.0,2,4
+val_loss_aulc,Loss AULC,xavier,3,2.0,1.0,1,4

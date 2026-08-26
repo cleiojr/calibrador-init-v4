@@ -1,0 +1,5 @@
+method,attempted_runs,completed_runs,numerical_failures,numerical_failure_rate,chance_collapses,chance_collapse_rate,successful_noncollapsed_runs
+calibrador_v4_symbolic,10,10,0,0.0,1,0.1,9
+he,10,10,0,0.0,1,0.1,9
+lecun,10,9,1,0.1,0,0.0,9
+xavier,10,9,1,0.1,1,0.1,8

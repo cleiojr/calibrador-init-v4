@@ -1,0 +1,15 @@
+BENCHMARK CONFIRMATÓRIO — CALIBRADOR INIT V4
+Cenário: Fashion-MNIST + SiLU
+Device: cuda
+Arquitetura: [784, 256, 64, 512, 32, 256, 64, 10]
+Ativação: silu
+Seeds: (1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010)
+Épocas: 30
+Batch size: 256
+SGD lr=0.05, momentum=0.9, weight_decay=0.0
+Val fraction: 0.15
+Formula: square(log_fan_out * (square(depth) * -0.08186779))
+Symbolic vector: [8.583509057918407e-05, 0.0007725158152126565, 0.008799437957656666, 0.008583509057918406, 0.053646931611990065, 0.06257378103222518, 0.035535097481633915]
+Refined vector: [8.4e-05, 0.00075296, 0.00873736, 0.0091705, 0.0529918, 0.0567118, 0.0350022]
+Métricas primárias: val_loss_aulc, final_val_loss
+Holm: por métrica e por variante V4 contra He/Xavier/LeCun.

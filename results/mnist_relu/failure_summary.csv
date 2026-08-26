@@ -1,0 +1,6 @@
+method,runs,failures,failure_rate
+calibrador_v4_refined,10,0,0.0
+calibrador_v4_symbolic,10,0,0.0
+he,10,0,0.0
+lecun,10,0,0.0
+xavier,10,0,0.0

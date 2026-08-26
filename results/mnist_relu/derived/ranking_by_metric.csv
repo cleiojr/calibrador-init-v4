@@ -1,0 +1,31 @@
+scenario,metric,metric_label,direction,rank,method,mean
+mnist_relu,val_loss_aulc,Loss AULC,lower,1,xavier,0.14170507416057174
+mnist_relu,val_loss_aulc,Loss AULC,lower,2,calibrador_v4_symbolic,0.14258637139060146
+mnist_relu,val_loss_aulc,Loss AULC,lower,3,lecun,0.1441516304786435
+mnist_relu,val_loss_aulc,Loss AULC,lower,4,calibrador_v4_refined,0.14663889290165458
+mnist_relu,val_loss_aulc,Loss AULC,lower,5,he,0.1614788406858449
+mnist_relu,final_val_loss,Final validation loss,lower,1,xavier,0.1650390142129527
+mnist_relu,final_val_loss,Final validation loss,lower,2,calibrador_v4_symbolic,0.16854563094973565
+mnist_relu,final_val_loss,Final validation loss,lower,3,lecun,0.1687202478216754
+mnist_relu,final_val_loss,Final validation loss,lower,4,calibrador_v4_refined,0.1704154039594862
+mnist_relu,final_val_loss,Final validation loss,lower,5,he,0.1786866871211264
+mnist_relu,val_acc_aulc,Accuracy AULC,higher,1,xavier,0.9650199233716474
+mnist_relu,val_acc_aulc,Accuracy AULC,higher,2,calibrador_v4_symbolic,0.9649268199233717
+mnist_relu,val_acc_aulc,Accuracy AULC,higher,3,lecun,0.9645310344827586
+mnist_relu,val_acc_aulc,Accuracy AULC,higher,4,calibrador_v4_refined,0.9642549808429118
+mnist_relu,val_acc_aulc,Accuracy AULC,higher,5,he,0.9589400383141763
+mnist_relu,final_val_acc,Final validation accuracy,higher,1,calibrador_v4_symbolic,0.968388888888889
+mnist_relu,final_val_acc,Final validation accuracy,higher,2,lecun,0.9676
+mnist_relu,final_val_acc,Final validation accuracy,higher,3,xavier,0.9675777777777779
+mnist_relu,final_val_acc,Final validation accuracy,higher,4,calibrador_v4_refined,0.9673555555555555
+mnist_relu,final_val_acc,Final validation accuracy,higher,5,he,0.9635222222222222
+mnist_relu,test_loss,Test loss,lower,1,lecun,0.16891852895034215
+mnist_relu,test_loss,Test loss,lower,2,calibrador_v4_refined,0.17288891935359585
+mnist_relu,test_loss,Test loss,lower,3,calibrador_v4_symbolic,0.17306027400000965
+mnist_relu,test_loss,Test loss,lower,4,xavier,0.1749649595082105
+mnist_relu,test_loss,Test loss,lower,5,he,0.17609028405498056
+mnist_relu,test_acc,Test accuracy,higher,1,calibrador_v4_symbolic,0.96814
+mnist_relu,test_acc,Test accuracy,higher,2,calibrador_v4_refined,0.968
+mnist_relu,test_acc,Test accuracy,higher,3,lecun,0.9675899999999998
+mnist_relu,test_acc,Test accuracy,higher,4,xavier,0.9674099999999999
+mnist_relu,test_acc,Test accuracy,higher,5,he,0.9641300000000002

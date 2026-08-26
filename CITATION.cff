@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated dissertation/article."
+title: "Calibrador Init V4"
+type: software
+authors:
+  - family-names: "Couto Junior"
+    given-names: "Cléio Sérgio"
+year: 2026
+license: MIT
+repository-code: "https://github.com/SEU_USUARIO/calibrador-init-v4"

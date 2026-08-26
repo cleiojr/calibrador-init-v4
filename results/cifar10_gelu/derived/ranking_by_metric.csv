@@ -1,0 +1,25 @@
+scenario,metric,metric_label,direction,rank,method,mean
+cifar10_gelu,val_loss_aulc,Loss AULC,lower,1,calibrador_v4_symbolic,1.7460531578555052
+cifar10_gelu,val_loss_aulc,Loss AULC,lower,2,lecun,1.7488135825201012
+cifar10_gelu,val_loss_aulc,Loss AULC,lower,3,he,1.756766784261068
+cifar10_gelu,val_loss_aulc,Loss AULC,lower,4,xavier,1.7866500213140728
+cifar10_gelu,final_val_loss,Final validation loss,lower,1,he,1.9511442762756346
+cifar10_gelu,final_val_loss,Final validation loss,lower,2,calibrador_v4_symbolic,2.024675027338664
+cifar10_gelu,final_val_loss,Final validation loss,lower,3,lecun,2.035750762960646
+cifar10_gelu,final_val_loss,Final validation loss,lower,4,xavier,2.1172698384108366
+cifar10_gelu,val_acc_aulc,Accuracy AULC,higher,1,lecun,0.5018781609195402
+cifar10_gelu,val_acc_aulc,Accuracy AULC,higher,2,xavier,0.47953971902937415
+cifar10_gelu,val_acc_aulc,Accuracy AULC,higher,3,calibrador_v4_symbolic,0.47939908045977014
+cifar10_gelu,val_acc_aulc,Accuracy AULC,higher,4,he,0.4615471264367816
+cifar10_gelu,final_val_acc,Final validation accuracy,higher,1,lecun,0.5241481481481481
+cifar10_gelu,final_val_acc,Final validation accuracy,higher,2,calibrador_v4_symbolic,0.4769866666666667
+cifar10_gelu,final_val_acc,Final validation accuracy,higher,3,he,0.47328000000000003
+cifar10_gelu,final_val_acc,Final validation accuracy,higher,4,xavier,0.4729777777777778
+cifar10_gelu,test_loss,Test loss,lower,1,he,1.9497162408256528
+cifar10_gelu,test_loss,Test loss,lower,2,calibrador_v4_symbolic,2.033992321014404
+cifar10_gelu,test_loss,Test loss,lower,3,lecun,2.043651832813687
+cifar10_gelu,test_loss,Test loss,lower,4,xavier,2.124864144367642
+cifar10_gelu,test_acc,Test accuracy,higher,1,lecun,0.5220111111111111
+cifar10_gelu,test_acc,Test accuracy,higher,2,calibrador_v4_symbolic,0.47594000000000003
+cifar10_gelu,test_acc,Test accuracy,higher,3,he,0.47095000000000004
+cifar10_gelu,test_acc,Test accuracy,higher,4,xavier,0.4705555555555555

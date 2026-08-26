@@ -1,0 +1,16 @@
+BENCHMARK CONFIRMATÓRIO — CALIBRADOR INIT V4
+Cenário: MNIST + ReLU
+Device: cuda
+Arquitetura: [784, 32, 64, 128, 32, 10]
+Ativação: relu
+Seeds: (1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010)
+Épocas: 30
+Batch size: 256
+SGD lr=0.05, momentum=0.9, weight_decay=0.0
+Val fraction: 0.15
+Formula: depth * square((0.84025156 - depth) * ((depth * 2.6870892) - dataset_input_absmean))
+Symbolic vector: [0.0020960375861296533, 0.011049664779072836, 0.028991447887617882, 0.0027340302323803113, 0.10103734950605775]
+Final origin: formula_mutation
+Refined vector: [0.0020917879, 0.0111904735, 0.0307695399, 0.0025142937, 0.1004776204]
+Métricas primárias: val_loss_aulc, final_val_loss
+Holm: por métrica e por variante V4 contra He/Xavier/LeCun.

@@ -1,0 +1,31 @@
+scenario,metric,metric_label,direction,rank,method,mean
+fashion_mnist_silu,val_loss_aulc,Loss AULC,lower,1,xavier,0.3658734277493195
+fashion_mnist_silu,val_loss_aulc,Loss AULC,lower,2,calibrador_v4_refined,0.3676273167054315
+fashion_mnist_silu,val_loss_aulc,Loss AULC,lower,3,calibrador_v4_symbolic,0.36780151308128656
+fashion_mnist_silu,val_loss_aulc,Loss AULC,lower,4,lecun,0.3679162438118938
+fashion_mnist_silu,val_loss_aulc,Loss AULC,lower,5,he,0.3813631728961778
+fashion_mnist_silu,final_val_loss,Final validation loss,lower,1,xavier,0.4302745297114055
+fashion_mnist_silu,final_val_loss,Final validation loss,lower,2,lecun,0.4350335744692219
+fashion_mnist_silu,final_val_loss,Final validation loss,lower,3,he,0.44282426778342987
+fashion_mnist_silu,final_val_loss,Final validation loss,lower,4,calibrador_v4_refined,0.4437422695265876
+fashion_mnist_silu,final_val_loss,Final validation loss,lower,5,calibrador_v4_symbolic,0.4441641385475794
+fashion_mnist_silu,val_acc_aulc,Accuracy AULC,higher,1,lecun,0.8874827586206896
+fashion_mnist_silu,val_acc_aulc,Accuracy AULC,higher,2,calibrador_v4_refined,0.8873438697318008
+fashion_mnist_silu,val_acc_aulc,Accuracy AULC,higher,3,calibrador_v4_symbolic,0.8871980842911877
+fashion_mnist_silu,val_acc_aulc,Accuracy AULC,higher,4,xavier,0.8871942528735632
+fashion_mnist_silu,val_acc_aulc,Accuracy AULC,higher,5,he,0.8851869731800767
+fashion_mnist_silu,final_val_acc,Final validation accuracy,higher,1,xavier,0.895011111111111
+fashion_mnist_silu,final_val_acc,Final validation accuracy,higher,2,lecun,0.8941444444444444
+fashion_mnist_silu,final_val_acc,Final validation accuracy,higher,3,calibrador_v4_refined,0.8934222222222223
+fashion_mnist_silu,final_val_acc,Final validation accuracy,higher,4,calibrador_v4_symbolic,0.8927888888888887
+fashion_mnist_silu,final_val_acc,Final validation accuracy,higher,5,he,0.8898777777777778
+fashion_mnist_silu,test_loss,Test loss,lower,1,he,0.4702023728197813
+fashion_mnist_silu,test_loss,Test loss,lower,2,lecun,0.47040989266084504
+fashion_mnist_silu,test_loss,Test loss,lower,3,calibrador_v4_refined,0.4735103423726558
+fashion_mnist_silu,test_loss,Test loss,lower,4,calibrador_v4_symbolic,0.47474733686685555
+fashion_mnist_silu,test_loss,Test loss,lower,5,xavier,0.4752864152807742
+fashion_mnist_silu,test_acc,Test accuracy,higher,1,lecun,0.8867499999999999
+fashion_mnist_silu,test_acc,Test accuracy,higher,2,calibrador_v4_refined,0.8859899999999999
+fashion_mnist_silu,test_acc,Test accuracy,higher,3,xavier,0.88566
+fashion_mnist_silu,test_acc,Test accuracy,higher,4,calibrador_v4_symbolic,0.8850900000000002
+fashion_mnist_silu,test_acc,Test accuracy,higher,5,he,0.8843599999999998
